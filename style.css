@@ -16,7 +16,6 @@ body {
   font-family: 'Inter', sans-serif;
   font-size: 1rem;
   line-height: 1.8rem;
-  /* padding:4rem; */
 }
 
 .container {
@@ -36,7 +35,7 @@ body {
   justify-content: center;
   align-content: center;
   position: fixed;
-  z-index: 10;
+  z-index: 20;
   
 }
 .loader img{
@@ -175,13 +174,6 @@ a{
 }
 
 /* Large Smartphone (Vertical) */
-@media screen and (min-width: 1450px) {
-  body {
-    max-width: 90rem;
-    margin: 0 auto;
-  }
-}
-
 @media screen and (max-width: 1024px) {
   .images{
     margin-top: 6rem;
@@ -192,10 +184,6 @@ a{
 }
 
 @media screen and (max-width: 542px) {
-  body {
-    padding:1.5rem;
-  }
-
   .nav-items{
     font-size: 1.5rem;
   }
@@ -216,6 +204,10 @@ a{
 
   .image__card-body {
     padding: .5rem;
+  }
+
+  body {
+    padding:1.5rem!important;
   }
 }
 
