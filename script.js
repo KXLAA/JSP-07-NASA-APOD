@@ -159,15 +159,5 @@ const removeFavorite = (itemURL) => {
 
 }
 
-
-
-
-
-
-
-
-
-
-
 //On Load
 getPhotos();
